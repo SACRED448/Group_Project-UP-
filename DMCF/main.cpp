@@ -14,6 +14,5 @@ int main(int argc, char *argv[])
         exit(1);
     //w.wipeDB()
     w.display();
-    //Добавляю этот комментарий просто так!
-    return a.exec
+    return a.exec();
 }

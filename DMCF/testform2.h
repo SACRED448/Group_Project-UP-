@@ -13,7 +13,8 @@ class testform2 : public QDialog
 
 public:
     explicit testform2(QWidget *parent = nullptr);
-    int w, h;
+    int n, w, h;
+    int getN();
     ~testform2();
 
 signals:
