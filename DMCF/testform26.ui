@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>testform26</class>
- <widget class="QDialog" name="testform26">
+ <class>TestForm26</class>
+ <widget class="QDialog" name="TestForm26">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -104,7 +104,7 @@
     <string>Иванов</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="next_pushButton_2">
+  <widget class="QPushButton" name="next_pushButton">
    <property name="geometry">
     <rect>
      <x>640</x>

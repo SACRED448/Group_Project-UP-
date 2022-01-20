@@ -1,21 +1,21 @@
-#ifndef TESTFORM9_H
-#define TESTFORM9_H
+#ifndef TESTFORM28_H
+#define TESTFORM28_H
 
 #include <QDialog>
 
 namespace Ui {
-class TestForm9;
+class TestForm28;
 }
 
-class TestForm9 : public QDialog
+class TestForm28 : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit TestForm9(QWidget *parent = nullptr);
+    explicit TestForm28(QWidget *parent = nullptr);
     bool a;
     int w, h;
-    ~TestForm9();
+    ~TestForm28();
 
 signals:
     void next_button_clicked();
@@ -32,7 +32,7 @@ private slots:
     void on_finish_pushButton_clicked();
 
 private:
-    Ui::TestForm9 *ui;
+    Ui::TestForm28 *ui;
 };
 
-#endif // TESTFORM9_H
+#endif // TESTFORM28_H

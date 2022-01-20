@@ -2,6 +2,7 @@
     <qresource prefix="/">
         <file>pictures/candles.jpg</file>
         <file>pictures/numbers.jpg</file>
-        <file>pictures/rectangle.jpeg</file>
+        <file>pictures/camp.jpg</file>
+        <file>pictures/1-1.jpg</file>
     </qresource>
 </RCC>

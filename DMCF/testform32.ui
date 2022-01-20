@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>testform32</class>
- <widget class="QDialog" name="testform32">
+ <class>TestForm32</class>
+ <widget class="QDialog" name="TestForm32">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1078</width>
-    <height>623</height>
+    <width>1011</width>
+    <height>590</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,7 +16,7 @@
   <widget class="QRadioButton" name="radioButton_4">
    <property name="geometry">
     <rect>
-     <x>520</x>
+     <x>460</x>
      <y>270</y>
      <width>301</width>
      <height>31</height>
@@ -34,37 +34,26 @@
     <string/>
    </property>
    <property name="text">
-    <string>яркий</string>
+    <string>сторожка</string>
    </property>
   </widget>
-  <widget class="QRadioButton" name="radioButton_5">
+  <widget class="QLabel" name="image">
    <property name="geometry">
     <rect>
-     <x>520</x>
-     <y>320</y>
-     <width>301</width>
-     <height>31</height>
+     <x>0</x>
+     <y>80</y>
+     <width>411</width>
+     <height>331</height>
     </rect>
    </property>
-   <property name="font">
-    <font>
-     <pointsize>18</pointsize>
-    </font>
-   </property>
-   <property name="acceptDrops">
-    <bool>false</bool>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
    <property name="text">
-    <string>тусклый</string>
+    <string/>
    </property>
   </widget>
   <widget class="QRadioButton" name="radioButton">
    <property name="geometry">
     <rect>
-     <x>520</x>
+     <x>460</x>
      <y>120</y>
      <width>431</width>
      <height>31</height>
@@ -82,13 +71,121 @@
     <string/>
    </property>
    <property name="text">
-    <string>темный</string>
+    <string>гнездо</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>170</y>
+     <width>421</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="text">
+    <string>нора</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>450</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="finish_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>490</y>
+     <width>371</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Завершить тест</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_3">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>220</y>
+     <width>421</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>курятник</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_5">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>320</y>
+     <width>301</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>берлога</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="next_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>450</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Дальше</string>
    </property>
   </widget>
   <widget class="QLabel" name="question">
    <property name="geometry">
     <rect>
-     <x>500</x>
+     <x>440</x>
      <y>0</y>
      <width>551</width>
      <height>101</height>
@@ -137,103 +234,6 @@
    </property>
    <property name="openExternalLinks">
     <bool>false</bool>
-   </property>
-  </widget>
-  <widget class="QRadioButton" name="radioButton_2">
-   <property name="geometry">
-    <rect>
-     <x>520</x>
-     <y>170</y>
-     <width>421</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>18</pointsize>
-    </font>
-   </property>
-   <property name="layoutDirection">
-    <enum>Qt::LeftToRight</enum>
-   </property>
-   <property name="text">
-    <string>светлый</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="next_pushButton_2">
-   <property name="geometry">
-    <rect>
-     <x>690</x>
-     <y>450</y>
-     <width>181</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Дальше</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="image">
-   <property name="geometry">
-    <rect>
-     <x>60</x>
-     <y>80</y>
-     <width>411</width>
-     <height>331</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QRadioButton" name="radioButton_3">
-   <property name="geometry">
-    <rect>
-     <x>520</x>
-     <y>220</y>
-     <width>421</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>18</pointsize>
-    </font>
-   </property>
-   <property name="acceptDrops">
-    <bool>false</bool>
-   </property>
-   <property name="toolTip">
-    <string/>
-   </property>
-   <property name="text">
-    <string>голубой</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="finish_pushButton">
-   <property name="geometry">
-    <rect>
-     <x>500</x>
-     <y>490</y>
-     <width>371</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Завершить тест</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="back_pushButton">
-   <property name="geometry">
-    <rect>
-     <x>500</x>
-     <y>450</y>
-     <width>181</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Назад</string>
    </property>
   </widget>
  </widget>

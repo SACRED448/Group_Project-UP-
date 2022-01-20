@@ -4,19 +4,35 @@
 #include <QDialog>
 
 namespace Ui {
-class test8;
+class TestForm8;
 }
 
-class test8 : public QDialog
+class TestForm8 : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit test8(QWidget *parent = nullptr);
-    ~test8();
+    explicit TestForm8(QWidget *parent = nullptr);
+    bool a;
+    int w, h;
+    ~TestForm8();
+
+signals:
+    void next_button_clicked();
+
+    void back_button_clicked();
+
+    void finish_button_clicked();
+
+private slots:
+    void on_next_pushButton_clicked();
+
+    void on_back_pushButton_clicked();
+
+    void on_finish_pushButton_clicked();
 
 private:
-    Ui::test8 *ui;
+    Ui::TestForm8 *ui;
 };
 
 #endif // TESTFORM8_H

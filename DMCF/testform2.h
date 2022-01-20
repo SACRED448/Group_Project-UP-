@@ -4,18 +4,18 @@
 #include <QDialog>
 
 namespace Ui {
-class testform2;
+class TestForm2;
 }
 
-class testform2 : public QDialog
+class TestForm2 : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit testform2(QWidget *parent = nullptr);
-    int n, w, h;
-    int getN();
-    ~testform2();
+    explicit TestForm2(QWidget *parent = nullptr);
+    bool a;
+    int w, h;
+    ~TestForm2();
 
 signals:
     void next_button_clicked();
@@ -25,14 +25,14 @@ signals:
     void finish_button_clicked();
 
 private slots:
-    void on_next_pushButton_2_clicked();
+    void on_next_pushButton_clicked();
 
     void on_back_pushButton_clicked();
 
     void on_finish_pushButton_clicked();
 
 private:
-    Ui::testform2 *ui;
+    Ui::TestForm2 *ui;
 };
 
 #endif // TESTFORM2_H

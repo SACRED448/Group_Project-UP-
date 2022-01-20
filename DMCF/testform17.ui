@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>testform17</class>
- <widget class="QDialog" name="testform17">
+ <class>TestForm17</class>
+ <widget class="QDialog" name="TestForm17">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1099</width>
-    <height>612</height>
+    <width>1021</width>
+    <height>485</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -119,7 +119,7 @@
     <string/>
    </property>
   </widget>
-  <widget class="QPushButton" name="next_pushButton_2">
+  <widget class="QPushButton" name="next_pushButton">
    <property name="geometry">
     <rect>
      <x>660</x>

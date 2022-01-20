@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>testform21</class>
- <widget class="QDialog" name="testform21">
+ <class>TestForm21</class>
+ <widget class="QDialog" name="TestForm21">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -84,7 +84,7 @@
     <string>Назад</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="next_pushButton_2">
+  <widget class="QPushButton" name="next_pushButton">
    <property name="geometry">
     <rect>
      <x>690</x>

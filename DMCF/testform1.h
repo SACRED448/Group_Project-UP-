@@ -13,21 +13,17 @@ class TestForm1 : public QDialog
 
 public:
     explicit TestForm1(QWidget *parent = nullptr);
-    int n, w, h;
-    int getN();
+    bool a;
+    int w, h;
     ~TestForm1();
 
 signals:
     void next_button_clicked();
 
-    void back_button_clicked();
-
     void finish_button_clicked();
 
 private slots:
     void on_next_pushButton_clicked();
-
-    void on_back_pushButton_clicked();
 
     void on_finish_pushButton_clicked();
 
